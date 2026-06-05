@@ -678,18 +678,27 @@
             <div class="team-card">
               <div class="card-inner">
                 <div class="avatar-container">
-                  <img src="<?= base_url('img/person/person2.png') ?>" alt="Team member" class="img-fluid">
+                  <img src="<?= base_url('img/person/andre.png') ?>" alt="Team member" class="img-fluid">
                   <div class="avatar-ring"></div>
                 </div>
                 <div class="member-info">
                   <h4>André Manoelino</h4>
                   <span class="position">Desenvolvedor Back-End & Sócio</span>
                 </div>
-                <p class="member-bio">Ut enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit.</p>
+                <p class="member-bio">Responsável pelo desenvolvimento das soluções da Telescope Systems.</p>
                 <div class="social-links">
-                  <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="#" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://github.com/AndreManoelino/" target="_blank" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/andre-manoelino-a1519a231/" target="_blank" aria-label="LinkedIn">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a href="https://wa.me/5531991070255/" target="_blank" aria-label="WhatsApp">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                  <a href="mailto:agmphandre@gmail.com" aria-label="E-mail">
+                    <i class="bi bi-envelope-fill"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1200,7 +1209,7 @@
                   <i class="bi bi-envelope-heart"></i>
                 </div>
                 <h5>E-mail</h5>
-                <p>contato@telescopesystems.com</p>
+                <p>telescopesystems@gmail.com</p>
                 <span class="availability">Envie sua solicitação</span>
               </div>
             </div>

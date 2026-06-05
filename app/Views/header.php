@@ -54,6 +54,9 @@
     <li><a href="<?= base_url('/#pricing') ?>">Planos</a></li>
     <li><a href="<?= base_url('/#faq') ?>">Dúvidas</a></li>
     <li><a href="<?= base_url('/#contact') ?>">Contato</a></li>
+    <li><a href="<?= base_url('/cadastro-empresa') ?>">Cadastrar</a></li>
+    <li><a href="<?= base_url('/login') ?>">Login</a></li>
+
   </ul>
   <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
 </nav>
