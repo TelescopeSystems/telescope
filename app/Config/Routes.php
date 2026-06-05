@@ -5,7 +5,17 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::inicio');
+$routes->get('/', 'Home::index');
+
+$routes->get('portfolio-details', 'Home::portfolioDetails');
+$routes->get('service-details', 'Home::serviceDetails');
+$routes->get('privacy', 'Home::privacy');
+$routes->get('terms', 'Home::terms');
+$routes->get('starter-page', 'Home::starterPage');
+
+
+/// rotas de cima do meu Home
+
 $routes->get('/cadastro-empresa', 'CadastroEmpresa::index');
 
 $routes->post(
@@ -28,3 +38,9 @@ $routes->post(
     '/alterar-senha/salvar',
     'ControleAlterarSenha::salvar'
 );
+
+// rota do painel 
+
+$routes->get('/painel', 'Painel::index');
+
+

@@ -107,13 +107,9 @@ class ControleLogin extends Controller
         switch ($usuario['tipo_usuario']) {
 
             case 'DONO_EMPRESA':
-                return redirect()->to('/painel-administrador');
-
             case 'CLIENTE':
-                return redirect()->to('/painel-cliente');
-
             case 'FUNCIONARIO':
-                return redirect()->to('/painel-funcionario');
+                return redirect()->to('/painel');
 
             default:
                 return redirect()->to('/');

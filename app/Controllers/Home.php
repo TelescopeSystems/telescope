@@ -4,34 +4,33 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function inicio(): string
+    public function index()
     {
-        $empresaModel = new \App\Models\EmpresaModel();
-        $usuarioModel = new \App\Models\UsuarioModel();
+        return view('index');
+    }
 
-        $empresas = $empresaModel
-            ->select('nome_empresa')
-            ->findAll();
+    public function portfolioDetails()
+    {
+        return view('portfolio-details');
+    }
 
-        $clientes = $usuarioModel
-            ->where('tipo_usuario', 'CLIENTE')
-            ->countAllResults();
+    public function serviceDetails()
+    {
+        return view('service-details');
+    }
 
-        $funcionarios = $usuarioModel
-            ->where('tipo_usuario', 'FUNCIONARIO')
-            ->countAllResults();
+    public function privacy()
+    {
+        return view('privacy');
+    }
 
-        $donos = $usuarioModel
-            ->where('tipo_usuario', 'DONO_EMPRESA')
-            ->countAllResults();
+    public function terms()
+    {
+        return view('terms');
+    }
 
-        return view('inicio', [
-            'empresas' => $empresas,
-            'clientes' => $clientes,
-            'funcionarios' => $funcionarios,
-            'donos' => $donos
-        ]);
-        
-
+    public function starterPage()
+    {
+        return view('starter-page');
     }
 }
