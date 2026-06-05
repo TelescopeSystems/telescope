@@ -1,0 +1,351 @@
+CRITICAL - 2026-06-04 01:30:15 --> ErrorException: Undefined variable $db
+[Method: GET, Route: teste-banco]
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\TesteBanco.php(22): view('welcome_message')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\TesteBanco->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteBanco))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+CRITICAL - 2026-06-04 01:36:18 --> ErrorException: Undefined variable $mensagem
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensagem', 'C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\TesteBanco.php(28): view('welcome_message', [])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\TesteBanco->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteBanco))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+CRITICAL - 2026-06-04 01:36:53 --> ErrorException: Undefined variable $mensagem
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensagem', 'C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\TesteBanco.php(28): view('welcome_message', [])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\TesteBanco->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteBanco))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+CRITICAL - 2026-06-04 01:37:11 --> ErrorException: Undefined variable $mensagem
+[Method: GET, Route: /]
+in APPPATH\Views\welcome_message.php on line 3.
+ 1 APPPATH\Views\welcome_message.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensagem', 'C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\aapet\\Documents\\telescope\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\TesteBanco.php(28): view('welcome_message', [])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\TesteBanco->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TesteBanco))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+ERROR - 2026-06-04 02:08:12 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=19088 in C:\Users\aapet\Documents\telescope\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\Users\\aapet\\...', 201)
+#1 C:\Users\aapet\Documents\telescope\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('db.yfmjplvqastd...', 'postgres', Object(SensitiveParameterValue), 'postgres', 5432, '', 0)
+#2 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#5 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#6 C:\Users\aapet\Documents\telescope\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#7 C:\Users\aapet\Documents\telescope\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#8 C:\Users\aapet\Documents\telescope\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#9 C:\Users\aapet\Documents\telescope\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#10 C:\Users\aapet\Documents\telescope\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#11 C:\Users\aapet\Documents\telescope\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#12 C:\Users\aapet\Documents\telescope\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#13 C:\Users\aapet\Documents\telescope\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#14 C:\Users\aapet\Documents\telescope\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\Users\aapet\Documents\telescope\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\Users\aapet\Documents\telescope\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\aapet\Documents\telescope\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('db.yfmjplvqastd...', 'postgres', Object(SensitiveParameterValue), 'postgres', 5432, '', 0)
+#1 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\aapet\Documents\telescope\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\aapet\Documents\telescope\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\aapet\Documents\telescope\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\aapet\Documents\telescope\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\Users\aapet\Documents\telescope\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\Users\aapet\Documents\telescope\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\Users\aapet\Documents\telescope\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\Users\aapet\Documents\telescope\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#13 C:\Users\aapet\Documents\telescope\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\Users\aapet\Documents\telescope\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\Users\aapet\Documents\telescope\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\aapet\Documents\telescope\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\aapet\Documents\telescope\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\aapet\Documents\telescope\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\aapet\Documents\telescope\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\aapet\Documents\telescope\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\Users\aapet\Documents\telescope\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\Users\aapet\Documents\telescope\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\aapet\Documents\telescope\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\aapet\Documents\telescope\system\Boot.php(442): CodeIgniter\CLI\Console->run()
+#12 C:\Users\aapet\Documents\telescope\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\Users\aapet\Documents\telescope\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+DEBUG - 2026-06-04 16:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-04 16:56:44 --> pg_query(): Query failed: ERROR:  null value in column &quot;email&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (1, 2, teste teste, 122.108.186-13, null, $2y$10$GujF41dkYzRJDA2qVM4wV.stiJHYX1cNyOmU3e9Pfwy656pIAwMfe, DONO_EMPRESA, 3199898989, null, t, t, null, 2026-06-04 16:56:43, 2026-06-04 16:56:43).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 200.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (2, \'teste teste\', \'122.108.186-13\', \'$2y$10$GujF41dkYzRJDA2qVM4wV.stiJHYX1cNyOmU3e9Pfwy656pIAwMfe\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 16:56:43\', \'2026-06-04 16:56:43\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (2, \'teste teste\', \'122.108.186-13\', \'$2y$10$GujF41dkYzRJDA2qVM4wV.stiJHYX1cNyOmU3e9Pfwy656pIAwMfe\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 16:56:43\', \'2026-06-04 16:56:43\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (:empresa_id:, :nome:, :cpf:, :senha:, :tipo_usuario:, :telefone:, :foto:, :primeiro_acesso:, :ativo:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CadastroEmpresa.php(165): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CadastroEmpresa->salvar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroEmpresa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+DEBUG - 2026-06-04 16:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-04 16:57:03 --> pg_query(): Query failed: ERROR:  null value in column &quot;email&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (2, 3, teste teste, 122.108.186-13, null, $2y$10$17FVMlwJsJ32fr7GU9W9IuQAxV5FqI23MoYqogXgD/8AI6HWDEXRm, DONO_EMPRESA, 3199898989, null, t, t, null, 2026-06-04 16:57:03, 2026-06-04 16:57:03).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 200.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (3, \'teste teste\', \'122.108.186-13\', \'$2y$10$17FVMlwJsJ32fr7GU9W9IuQAxV5FqI23MoYqogXgD/8AI6HWDEXRm\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 16:57:03\', \'2026-06-04 16:57:03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (3, \'teste teste\', \'122.108.186-13\', \'$2y$10$17FVMlwJsJ32fr7GU9W9IuQAxV5FqI23MoYqogXgD/8AI6HWDEXRm\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 16:57:03\', \'2026-06-04 16:57:03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (:empresa_id:, :nome:, :cpf:, :senha:, :tipo_usuario:, :telefone:, :foto:, :primeiro_acesso:, :ativo:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CadastroEmpresa.php(165): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CadastroEmpresa->salvar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroEmpresa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+DEBUG - 2026-06-04 16:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 16:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-04 17:47:32 --> pg_query(): Query failed: ERROR:  null value in column &quot;email&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (3, 4, teste teste, 595.115.120-13, null, $2y$10$aMQXQhqlMmp4ws2Z78W47OJWCWWy2WpkeqWDJsa3czit33DCKdeDS, DONO_EMPRESA, 3199898989, null, t, t, null, 2026-06-04 17:47:32, 2026-06-04 17:47:32).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 200.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (4, \'teste teste\', \'595.115.120-13\', \'$2y$10$aMQXQhqlMmp4ws2Z78W47OJWCWWy2WpkeqWDJsa3czit33DCKdeDS\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:47:32\', \'2026-06-04 17:47:32\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (4, \'teste teste\', \'595.115.120-13\', \'$2y$10$aMQXQhqlMmp4ws2Z78W47OJWCWWy2WpkeqWDJsa3czit33DCKdeDS\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:47:32\', \'2026-06-04 17:47:32\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (:empresa_id:, :nome:, :cpf:, :senha:, :tipo_usuario:, :telefone:, :foto:, :primeiro_acesso:, :ativo:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CadastroEmpresa.php(165): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CadastroEmpresa->salvar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroEmpresa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+DEBUG - 2026-06-04 17:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-04 17:50:00 --> pg_query(): Query failed: ERROR:  null value in column &quot;email&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (4, 5, teste teste, null, null, $2y$10$vlTNV4B8exNqYHfm2MRBmeMo2JeLfl7dntfGooiY5RrCYDaPyX4DK, DONO_EMPRESA, 3199898989, null, t, t, null, 2026-06-04 17:49:59, 2026-06-04 17:49:59).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 200.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (5, \'teste teste\', NULL, \'$2y$10$vlTNV4B8exNqYHfm2MRBmeMo2JeLfl7dntfGooiY5RrCYDaPyX4DK\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:49:59\', \'2026-06-04 17:49:59\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (5, \'teste teste\', NULL, \'$2y$10$vlTNV4B8exNqYHfm2MRBmeMo2JeLfl7dntfGooiY5RrCYDaPyX4DK\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:49:59\', \'2026-06-04 17:49:59\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (:empresa_id:, :nome:, :cpf:, :senha:, :tipo_usuario:, :telefone:, :foto:, :primeiro_acesso:, :ativo:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CadastroEmpresa.php(165): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CadastroEmpresa->salvar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroEmpresa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+DEBUG - 2026-06-04 17:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-06-04 17:52:25 --> pg_query(): Query failed: ERROR:  null value in column &quot;email&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (5, 6, teste teste, 12012345623, null, $2y$10$0qD3UncqfuujGLqvQl5WC.9Q158QC2AnhDhVPt3EaBmBbTQPvgE9K, DONO_EMPRESA, 3199898989, null, t, t, null, 2026-06-04 17:52:24, 2026-06-04 17:52:24).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 200.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (6, \'teste teste\', \'12012345623\', \'$2y$10$0qD3UncqfuujGLqvQl5WC.9Q158QC2AnhDhVPt3EaBmBbTQPvgE9K\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:52:24\', \'2026-06-04 17:52:24\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (6, \'teste teste\', \'12012345623\', \'$2y$10$0qD3UncqfuujGLqvQl5WC.9Q158QC2AnhDhVPt3EaBmBbTQPvgE9K\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:52:24\', \'2026-06-04 17:52:24\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (:empresa_id:, :nome:, :cpf:, :senha:, :tipo_usuario:, :telefone:, :foto:, :primeiro_acesso:, :ativo:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CadastroEmpresa.php(165): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CadastroEmpresa->salvar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroEmpresa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+ERROR - 2026-06-04 17:52:56 --> pg_query(): Query failed: ERROR:  null value in column &quot;email&quot; of relation &quot;usuarios&quot; violates not-null constraint
+DETAIL:  Failing row contains (6, 7, teste teste, 12012345623, null, $2y$10$PM7Cna55qiP7GFvc5e1CneYelPFktHuP/lYBM3sVWWUY0OkfYAmWq, DONO_EMPRESA, 3199898989, null, t, t, null, 2026-06-04 17:52:56, 2026-06-04 17:52:56).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 200.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (7, \'teste teste\', \'12012345623\', \'$2y$10$PM7Cna55qiP7GFvc5e1CneYelPFktHuP/lYBM3sVWWUY0OkfYAmWq\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:52:56\', \'2026-06-04 17:52:56\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (7, \'teste teste\', \'12012345623\', \'$2y$10$PM7Cna55qiP7GFvc5e1CneYelPFktHuP/lYBM3sVWWUY0OkfYAmWq\', \'DONO_EMPRESA\', \'3199898989\', NULL, TRUE, TRUE, \'2026-06-04 17:52:56\', \'2026-06-04 17:52:56\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO "usuarios" ("empresa_id", "nome", "cpf", "senha", "tipo_usuario", "telefone", "foto", "primeiro_acesso", "ativo", "created_at", "updated_at") VALUES (:empresa_id:, :nome:, :cpf:, :senha:, :tipo_usuario:, :telefone:, :foto:, :primeiro_acesso:, :ativo:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CadastroEmpresa.php(165): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\CadastroEmpresa->salvar()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CadastroEmpresa))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+DEBUG - 2026-06-04 17:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 17:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:34:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 18:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 19:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 19:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 21:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-04 21:14:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "home/index.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(28): view('home/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\aapet\\Documents\\telescope\\public\\index.php')
+DEBUG - 2026-06-04 23:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-04 23:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
